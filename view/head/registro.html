@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleregis.css">
+    <title>REGISTRO</title>
+</head>
+
+<body>
+    <main>
+        <div class="padre">
+            <div class="formulario">
+                <div>
+                    <h1>REGISTRO</h1>
+                    <img src="iconos/nota.png" alt="">           
+                </div>
+                <div class="form">
+                    <table>
+                        <form action="index.html">
+                            <tr>
+                                <td>APELLIDOS:</td>
+                                <td><input type="text" required placeholder="INGRESA TU NOMBRE"></td>
+                            </tr>
+                            <tr>
+                                <td>NOMBRE:</td>
+                                <td><input type="text" required placeholder="INGRESA TU NOMBRE"></td>
+                            </tr>
+                            <tr>
+                                <td>Usuario:</td>
+                                <td><input type="text" required placeholder="INGRESA TU NOMBRE"></td>
+                            </tr>
+                            <tr>
+                                <td>CORREO:</td>
+                                <td><input type="email" required placeholder="INGRESA TU EMAIL"></td>
+                            </tr>
+                            <tr>
+                                <td>contraseña:</td>
+                                <td><input type="password" required placeholder="INGRESA TU CONTRASEÑA"></td>
+                            </tr>
+                            <tr>
+                                <td>repeite tu contraseña:</td>
+                                <td><input type="password" required placeholder="REPITE YU CONTRASEÑA"></td>
+                            </tr>
+                            <tr>
+                                <td>PAIS:</td>
+                                <td><select name="pais" id="pais">
+                                        <option value="mexico">Mexico</option>
+                                        <option value="eu">Estados Unidos</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="peru">Peru</option>
+                                        <option value="aregentina">Argentina</option>
+                                        <option value="brasil">Brasil</option>
+                                        <option value="venezuela">Venezuela</option>
+                                        <option value="colombia">Colombia</option>
+                                        <option value="chile">Chile</option>
+                                        <option value="bolivia">Bolivia</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>SEXO:</td>
+                                <td><label>M
+                                        <input type="radio" name="gender">
+                                    </label> <label>F
+                                        <input type="radio" name="gender">
+                                    </label></td>
+                            </tr>
+                    </table>
+                    <div class="botones">
+                        <input class="botones" type="submit" value="enviar">
+                        <input class="botones" type="button" value="regresar" onclick="history.back()">
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

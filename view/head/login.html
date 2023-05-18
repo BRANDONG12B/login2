@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style/stylelogin.css">
+</head>
+
+<body>
+    <div class="atras">
+        <a href="index.html"> 
+            <img src="iconos/angulo-izquierdo.png" alt=""> Regresar
+        </a>
+    </div>
+    <div class="padre">
+        <div class="box">
+            <div class="img">
+                <img src="iconos/iniciar-sesion.png" alt="">
+            </div>
+            <h1>LOGIN</h1>
+            <div class="formulario">
+                <form action="index.html" method="post">
+                    <p>Usuario <input type="text" placeholder="ingresa tu usuario " name="usuario" required> </p>
+                    <p>Contraseña<input type="password" placeholder="ingrese su contraseña " name="password" required>
+                    </p>
+                    <input type="submit" value="ingresar">
+                </form>
+
+                <input type="checkbox" id="btnmodal">
+                <label for="btnmodal" class="lblmodal">Olvidaste tu contraseña</label>
+                <div class="modal">
+                    <div class="contenedor">      
+                        <header>UPPS</header>   
+                        <label for="btnmodal">X</label> 
+                        <div class="upss">
+                            <h3>Olvidaste tu contraseña contactanos al siguiente correo con gusto te ayudaremos
+                                a recuperar tu cuenta <br> zorros.mal@hotmail.com
+                            </h3>                      
+                        </div>         
+
+                    </div>
+                </div>
+
+
+                <a href="registro.html">Eres nuevo, registrate</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
